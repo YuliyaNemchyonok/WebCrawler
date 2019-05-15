@@ -3,7 +3,7 @@ Scan Internet pages and save their titles.
 
 You can set number of threads-workers, which wait for new tasks in the task queue. 
 A task is an URL. If a thread-worker gets a task, it goes to the page, saves its title, collects all links on the page, 
-and adds this links as new tasks to the task queue.
+and adds this links as new tasks to the task queue. Save button export urls and titles of parsed pages into text file.
 
 Restrictions:
 
